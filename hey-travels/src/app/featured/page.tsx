@@ -5,7 +5,7 @@ export default function Featured() {
     { id: 3, title: "Azaleaaaaa" },
   ];
   return (
-    <main className=" mt-[-20px] rounded-3xl bg-white h-screen w-full flex justify-center items-center">
+    <main className=" mt-[-20px] rounded-3xl bg-white h-screen w-full flex flex-col justify-center items-center gap-y-6">
       <div className=" bg-gradient-to-br from-white from-70% to-[#FCE483] h-[90%] w-[90%] flex flex-col justify-around p-10 rounded-3xl">
         <h1 className="items-start text-[40px]">Featured Hotels</h1>
         <div className="h-[60%] w-full grid grid-cols-4 gap-4 ">
@@ -15,14 +15,13 @@ export default function Featured() {
             </button>
           ))}
           <div className="h-full rounded-2xl bg-orange-600 flex flex-col justify-end items-center p-4">
-            <h1 className="text-[20px] text-center p-4">Discover Great Deals on Hotels Today</h1>
-            <button className="bg-teal-400 p-4 rounded-xl">
-                Check More
-            </button>
+            <h1 className="text-[20px] text-center p-4">
+              Discover Great Deals on Hotels Today
+            </h1>
+            <button className="bg-[#0B1924] p-4 rounded-xl text-white">Check More</button>
           </div>
         </div>
       </div>
-      
     </main>
   );
 }

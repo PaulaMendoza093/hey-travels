@@ -1,8 +1,8 @@
 export default function Banner() {
   return (
     <main className=" bg-[url('/banner.svg')] bg-cover h-screen w-full">
-      <div className=" h-[15%]  p-4 w-full flex flex-row justify-between items-center bg-white bg-opacity-10">
-        <img className="w-[176px] h-[73px]" src="./logo.svg " alt="logo" />
+      <div className=" h-[15%]  p-4 w-full flex flex-row justify-between items-center bg-white bg-opacity-5">
+        <img className="w-[176px] h-[63px]" src="./logo.svg " alt="logo" />
         <button className=" bg-slate-400 flex flex-row items-center gap-x-4 p-4 rounded-full">
           <img src="./hamburger.svg" alt="hamburger" />
           <img src="./account.svg" alt="account" />
@@ -23,7 +23,7 @@ export default function Banner() {
           <p className="text-[#0B1924] font-semibold">Check-In Check-out</p>
           <p className=" text-gray-500">Add Dates</p>
         </button>
-        <button className=" h-[50%] w-30 flex flex-col justify-center text-left  bg-white border border-black p-4">
+        <button className=" h-[50%] w-40 flex flex-col justify-center text-left  bg-white border border-black p-4">
           <p className="text-[#0B1924] font-semibold">Who</p>
           <p className=" text-gray-500">Add Guests</p>
         </button>
