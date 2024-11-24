@@ -10,16 +10,19 @@ export default function Breaker(){
         <div className=" bg-gradient-to-br from-white from-70% to-[#ACD4FF] w-[80%] h-[70%] rounded-xl flex flex-col justify-around p-10 mb-6">
         <h1 className="items-start text-[40px]">Our Attractions</h1>
             <div className="h-[70%] w-full grid grid-cols-4 gap-4">
-            {card2.map((item) => (
-                <button key={item.id} className="bg-orange-100 h-full rounded-2xl">
-                {item.title}
-              </button>
-            ))}
-            <div className="h-full rounded-2xl bg-orange-300 flex flex-col justify-end items-center p-4">
-            <h1 className="text-[20px] text-center p-4">
-              Discover Great Deals on Hotels Today
-            </h1>
-            <button className="bg-[#0B1924] p-4 rounded-xl text-white">Check More</button>
+                {card2.map((item) => (
+                    <button key={item.id} className="bg-orange-100 h-full rounded-2xl">
+                    {item.title}
+                </button>
+                ))}
+                <div className="h-full rounded-2xl bg-[url('/resort.svg')] bg-cover flex flex-col justify-end">
+                    <div className="bg-gradient-to-b from-transparent from-60% to-[#D1E7FF] h-fill w-fill flex flex-col justify-center items-center p-4 rounded-2xl">
+                        <h1 className="text-[20px] text-center p-4">
+                    Discover Great Deals on Hotels Today
+                    </h1>
+                    <button className="bg-[#0B1924] p-4 rounded-xl text-white">Check More</button>
+                    </div>
+            
             </div>
             </div>
 

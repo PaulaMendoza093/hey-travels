@@ -1,11 +1,11 @@
 export default function Banner() {
   return (
     <main className=" bg-[url('/banner.svg')] bg-cover h-screen w-full">
-      <div className=" h-[15%]  p-4 w-full flex flex-row justify-between items-center bg-white bg-opacity-5">
-        <img className="w-[176px] h-[63px]" src="./logo.svg " alt="logo" />
+      <div className=" h-[10%]  p-4 w-full flex flex-row justify-between items-center bg-white bg-opacity-5">
+        <img className="w-[176px] h-[100%]" src="./logo.svg " alt="logo" />
         <button className=" bg-slate-400 flex flex-row items-center gap-x-4 p-4 rounded-full">
-          <img src="./hamburger.svg" alt="hamburger" />
-          <img src="./account.svg" alt="account" />
+          <img className ="h-100% w-50% " src="./hamburger.svg" alt="hamburger" />
+          <img className ="h-100% w-50% " src="./account.svg" alt="account" />
         </button>
       </div>
       <div className=" h-[60%] w-full flex justify-center items-center flex-col">

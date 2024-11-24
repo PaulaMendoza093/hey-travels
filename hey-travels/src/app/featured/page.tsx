@@ -14,11 +14,15 @@ export default function Featured() {
               {item.title}
             </button>
           ))}
-          <div className="h-full rounded-2xl bg-orange-600 flex flex-col justify-end items-center p-4">
-            <h1 className="text-[20px] text-center p-4">
-              Discover Great Deals on Hotels Today
-            </h1>
-            <button className="bg-[#0B1924] p-4 rounded-xl text-white">Check More</button>
+          <div className="h-full rounded-2xl bg-[url('/hotel.svg')] bg-cover flex flex-col justify-end">
+            <div className="bg-gradient-to-b from-transparent from-60% to-[#FCE483] h-fill w-fill flex flex-col justify-center items-center p-4 rounded-2xl">
+              <h1 className="text-[20px] text-center p-4">
+                Discover Great Deals on Hotels Today
+              </h1>
+              <button className="bg-[#0B1924] p-4 rounded-xl text-white">Check More</button>
+
+            </div>
+            
           </div>
         </div>
       </div>
